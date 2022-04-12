@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from "./Pages/Home";
+import {HashRouter, Routes, Route} from "react-router-dom";
+import Navbar from "./Components/Navbar";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
+import Laniste from "./Pages/Laniste";
+import Recrutement from "./Pages/Recrutement";
+import Cirque from "./Pages/Cirque";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return <>
+        <HashRouter>
+            <Routes>
+                <Route exact path={"/"} element={<Home/>}/>
+                <Route exact path={"/login"} element={<Login/>}/>
+                <Route exact path={"/register"} element={<Register/>}/>
+            </Routes>
+            <Navbar/>
+            <Routes>
+                <Route exact path={"/laniste"} element={<Laniste/>}/>
+                <Route exact path={"/recrutement"} element={<Recrutement/>}/>
+                <Route exact path={"/cirque"} element={<Cirque/>}/>
+            </Routes>
+        </HashRouter>
+    </>
 }
 
 export default App;

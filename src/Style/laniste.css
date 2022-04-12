@@ -1,0 +1,53 @@
+.global-laniste {
+    min-height: 100vh;
+    height: auto;
+    width: calc(100% - 350px);
+    background-image: url("../Medias/bg-laniste.png");
+    background-position: top right;
+    font-family: 'DalekPinpoint Bold';
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
+.all-parchemin {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.global-laniste h1 {
+    color: #F1A041;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #6B4A37;
+}
+
+.parchemin {
+    width: 500px;
+    height: 500px;
+    background-image: url("../Medias/parchemin.png");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parchemin .content-parchemin {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-parchemin a, .content-parchemin a:hover {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #E8591C;
+    border-radius: 5px;
+}
+

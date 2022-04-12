@@ -1,0 +1,33 @@
+.global-cirque {
+    min-height: 100vh;
+    height: auto;
+    width: calc(100% - 350px);
+    background-image: url("../Medias/bg-laniste.png");
+    background-position: top right;
+    font-family: 'DalekPinpoint Bold';
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
+
+.global-cirque h1 {
+    color: #F1A041;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #6B4A37;
+}
+
+.content-cirque {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.global-cirque .btn, .global-cirque .btn:hover {
+    font-size: 30px;
+    background: #E8591C;
+    color: #fff;
+}
+
