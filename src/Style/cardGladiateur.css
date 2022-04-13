@@ -1,0 +1,36 @@
+.card-gladiateur {
+    width: 500px;
+    height: 450px;
+    background: #4B3B2D;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.capacite {
+    display: flex;
+    flex-direction: column;
+}
+
+.capacite .progress {
+    height: 35px;
+    width: 200px;
+}
+
+.content-capacite {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+.content-capacite label {
+    font-size: 25px;
+}
+
+
+.entrainement .btn {
+    background: #E8591C;
+    color: #fff;
+}
+
+.entrainement label {
+    font-size: 17px;
+}

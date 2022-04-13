@@ -1,0 +1,49 @@
+.global-ludi {
+    min-height: 100vh;
+    height: auto;
+    width: calc(100% - 350px);
+    background-image: url("../Medias/bg-laniste.png");
+    background-position: top right;
+    font-family: 'DalekPinpoint Bold';
+    color: white;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
+
+.global-ludi h1 {
+    color: #F1A041;
+    font-size: 50px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #6B4A37;
+}
+
+.global-ludi form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.global-ludi .btn, .global-ludi .btn:hover {
+    font-size: 15px;
+    background: #E8591C;
+    color: #fff;
+}
+
+.content-ludi {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.components-ludi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+
+

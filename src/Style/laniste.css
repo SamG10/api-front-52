@@ -31,8 +31,24 @@
     background-image: url("../Medias/parchemin.png");
     background-position: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
+}
+
+.parchemin h1 {
+    color: #F1A041;
+    font-size: 30px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #6B4A37;
+}
+.parchemin a, .parchemin a:hover {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background: #E8591C;
+    border-radius: 5px;
 }
 
 .parchemin .content-parchemin {
@@ -49,5 +65,15 @@
     padding: 10px 15px;
     background: #E8591C;
     border-radius: 5px;
+}
+
+.create-ludi {
+    display: flex;
+    justify-content: center;
+}
+.create-ludi form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 

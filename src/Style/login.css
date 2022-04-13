@@ -21,7 +21,7 @@
     border-radius: 10px;
 }
 
-form a, form a:hover {
+form .btn, form .btn:hover {
     text-decoration: none;
     color: #fff;
     background: #CF1616;

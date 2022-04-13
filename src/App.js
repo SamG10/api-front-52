@@ -7,6 +7,7 @@ import Register from "./Pages/Register";
 import Laniste from "./Pages/Laniste";
 import Recrutement from "./Pages/Recrutement";
 import Cirque from "./Pages/Cirque";
+import Ludi from "./Pages/Ludi";
 
 function App() {
     return <>
@@ -21,6 +22,7 @@ function App() {
                 <Route exact path={"/laniste"} element={<Laniste/>}/>
                 <Route exact path={"/recrutement"} element={<Recrutement/>}/>
                 <Route exact path={"/cirque"} element={<Cirque/>}/>
+                <Route exact path={"/ludi/:id"} element={<Ludi/>}/>
             </Routes>
         </HashRouter>
     </>
